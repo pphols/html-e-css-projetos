@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+div#logo{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav#inicial{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+  height: 120px;
+}
+a{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: gray;
+  margin-top: 40px;
+  padding: 8px;
+  
+}
+a:hover{
+  background-color: #42B3E5;
+  color: rgb(241, 241, 250);
+}
+section#banner{
+  display: flex;
+  justify-content: center;
+  background-image: url('../imagens/img1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+}
+div.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 990px;
+}
+div.headline{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headline > h1{
+  max-width: 350px;
+  color: white;
+  font-size: 70px;
+  font-weight: lighter;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.505);
+  margin: 0px;
+  padding: 0px;
+}
+.headline > h2{
+  max-width: 350px;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.505);
+  margin: 0px;
+  margin-top: 30px;
+  padding: 0px;
+}
+div.boxtext{
+  display: flex;
+  height: 210px;
+}
+div.box1{
+  flex: 1;
+  background-color: #42B3E5;
+  color: white;
+  font-weight: lighter;
+  padding: 20px;
+}
+.box1 > p{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.box1 > a{
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  text-transform: initial;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  height: 20px;
+  margin-top: 3px;
+}
+div.box2{
+  flex: 1;
+  background-color: #0384CE;
+  color: white;
+  font-weight: lighter;
+  padding: 20px;
+}
+.box2 > p{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}  
+.box2 > a{
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  text-transform: initial;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  height: 20px;
+  margin-top: 3px;
+}
+div.box3{
+  flex: 1;
+  background-color: #3156A3;
+  color: white;
+  font-weight: lighter;
+  padding: 20px;
+}
+.box3 >div{
+  display: flex;
+  border-bottom: 1px solid rgba(150, 133, 247, 0.528);
+  margin: 15px;
+  margin-top: 30px;
+}
+.box3 > div > p{
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-right: 25px;
+}
+#geral{
+  display: flex;
+  justify-content: center;
+}
+#geral > section{
+  flex: 2;
+}
+#geral > aside{
+  flex: 1;
+}
+.widget_title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.widget_title_text{
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+}
+.widget_title_bar{
+  width: 50px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #0384CE;
+}
+
+.widget_body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.retangulos{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  background-color: #36a9e1;
+}
+
+a.depart{
+  background-color: #36a9e1;
+  color: white;
+  text-align: center;
+  margin: 15px;
+  font-size: 12px;
+}
+
+.widget_body > ul{
+  background-color: #0384CE;
+  display: block;
+  flex: 1;
+  list-style: none;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.news_date{
+  display: flex;
+}
+.posted{
+  background-color: #3156A3;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 2px;
+}
+.news_coment{
+  background-color: #0384CE;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+}
+.thumb{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+h3{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 23px;
+}
+p{
+  font-size: 14px;
+  line-height: 20px;
+}
+footer{
+  background-color: black;
+  color: white;
+  border-top: 2px solid rgb(72, 66, 66);
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+}
+
+
+
+
